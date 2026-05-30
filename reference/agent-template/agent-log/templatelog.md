@@ -1,6 +1,6 @@
 # YYYYMMDDHHMM-shortslug-model
 
-Copy this file into `agent-log/` and rename it for each conversation.
+Copy this file into `agent-log/` and rename it for each task execution.
 
 Naming convention:
 
@@ -14,7 +14,20 @@ Example:
 202605300137-p1-webapp-gpt5.md
 ```
 
-## User Request
+## Original Prompt
+
+Paste the user's raw prompt text here. If the user adds scope during the same task execution, append each additional prompt with its timestamp.
+
+```text
+<raw user prompt>
+```
+
+## Task Execution Time
+
+- Start: `YYYY-MM-DD HH:MM:SS <timezone>`
+- End: `YYYY-MM-DD HH:MM:SS <timezone>`
+
+## User Request Summary
 
 Summarize the user's request in plain language.
 
@@ -24,7 +37,7 @@ List the files, logs, requirements, designs, and references read before making c
 
 ## Work Performed
 
-List the meaningful changes made during the conversation.
+List the meaningful changes made during the task execution.
 
 ## Requirements Updated
 

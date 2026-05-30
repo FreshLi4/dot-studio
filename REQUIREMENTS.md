@@ -969,6 +969,9 @@
   - [x] [X-A-005] AI 延后任务时标记 `#deferred`
   - [x] [X-A-006] AI 阻塞任务时标记 `#blocked`
   - [x] [X-A-007] AI 取消任务时标记 `#cut`
+  - [x] [X-A-008] 每次任务执行创建一个 log
+  - [x] [X-A-009] log 包含用户原始 prompt
+  - [x] [X-A-010] log 包含任务执行开始时间和结束时间
 
 ## X-B：Definition of Done
 
@@ -1025,5 +1028,6 @@
   - [x] [X-F-002] 输出 `reference/agent-template/requirements.md`
   - [x] [X-F-003] 输出 `reference/agent-template/design.md`
   - [x] [X-F-004] 输出 `reference/agent-template/agent-log/templatelog.md`
-  - [x] [X-F-005] 模板说明每次对话必须创建 log
+  - [x] [X-F-005] 模板说明每次任务执行必须创建 log
   - [x] [X-F-006] 模板说明必须严格更新 requirements
+  - [x] [X-F-007] 模板 log 包含用户原始 prompt、开始时间、结束时间

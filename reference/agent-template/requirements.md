@@ -31,7 +31,9 @@ Use stable IDs. Do not renumber existing IDs when sorting or inserting new tasks
 
 - [ ] [X-A-000] Maintain AI traceability #qa #P0
   - [ ] [X-A-001] Update requirements after every completed task.
-  - [ ] [X-A-002] Create one agent log per conversation.
+  - [ ] [X-A-002] Create one agent log per task execution.
+  - [ ] [X-A-003] Agent log includes the user's original raw prompt text.
+  - [ ] [X-A-004] Agent log includes task execution start and end time.
 
 - [ ] [X-B-000] Definition of Done #qa #P0
   - [ ] [X-B-001] Feature is implemented.
