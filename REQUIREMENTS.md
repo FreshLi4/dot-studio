@@ -1033,3 +1033,12 @@
   - [x] \[X-F-006] 模板说明必须严格更新 requirements
   - [x] \[X-F-007] 模板 log 包含用户原始 prompt、开始时间、结束时间
 
+## X-G：部署
+
+- [x] \[X-G-000] 配置 GitHub Pages 自动部署 #deploy #P1
+  - [x] \[X-G-001] 创建 GitHub Actions Pages workflow
+  - [x] \[X-G-002] workflow 在 push 到 main 时运行
+  - [x] \[X-G-003] workflow 执行 npm ci、npm test、npm run build
+  - [x] \[X-G-004] workflow 上传 dist 作为 Pages artifact
+  - [x] \[X-G-005] workflow 使用 actions/deploy-pages 部署
+  - [x] \[X-G-006] Vite base 配置为 GitHub Pages 项目路径

@@ -24,6 +24,14 @@ npm run build
 
 The dev server defaults to `http://127.0.0.1:5173`.
 
+## Deployment
+
+GitHub Pages deployment is handled by `.github/workflows/deploy-pages.yml`.
+
+- Pushes to `main` run tests, build the Vite app, upload `dist/`, and deploy through GitHub Pages.
+- The Vite base path is `/dot-studio/`, matching the default project Pages URL: `https://freshli4.github.io/dot-studio/`.
+- Repository Settings -> Pages should use GitHub Actions as the source.
+
 ## Reference Projects
 
 Reference projects live under `reference/project/` and are used for architecture study:
